@@ -1,4 +1,71 @@
 body {
     margin: 0;
     background-color: white;
+    padding: 20px;
+}
+
+.first-container {
+    box-sizing: border-box;
+    border: 5px solid black;
+    height: 200px;
+    width: 100%;
+}
+
+.first-box {
+    background-color: blueviolet;
+    height: 120px;
+    width: 50px;
+    margin: 5px 20px;
+    display: inline-block;
+}
+
+.second-box {
+    background-color: green;
+    height: 170px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 40px;
+}
+
+.circle{
+    background-color: lightskyblue;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.second-container{
+    box-sizing: border-box;
+    border: 5px dotted black;
+    margin-top: 20px;
+    height: 250px;
+    width: 100%;
+    padding: 30px;
+}
+
+.cream-box {
+    background-color: lightgoldenrodyellow;
+    height: 175px;
+    width: 100%;
+    box-shadow: 10px 10px 5px 0px black;
+    -webkit-box-shadow: 10px 10px 5px 0px black;
+    -moz-box-shadow: 10px 10px 5px 0px black;
+}
+
+.third-container{
+    height: 300px;
+    width: 50%;
+    border: 1px solid gainsboro;
+    margin: 20px auto;
+    box-shadow: 4px 4px 2px 0px lightgray;
+    -webkit-box-shadow: 4px 4px 2px 0px lightgray;
+  -moz-box-shadow: 4px 4px 2px 0px lightgray;
+}
+
+.third-container h1{
+    text-align: center;
+    color: navy;
+    letter-spacing: 10px;
+    padding: 100px;
 }
